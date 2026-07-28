@@ -1,0 +1,53 @@
+# Initial Class Diagram Analysis
+
+The initial classes identified for the Student Activities Management System (SAMS) are:
+
+- User
+- Student
+- Organizer
+- Student Affairs Staff
+- Activity
+- Registration
+- Attendance
+- Notification
+- Certificate
+- Waiting List
+
+These classes represent the main users and functions of the system.
+
+The Student can browse activities, register for activities, receive notifications, record attendance, and obtain certificates.
+
+The Organizer can create and manage activities, review registrations, and monitor attendance.
+
+The Student Affairs Staff can supervise activities, review reports, and manage the overall system.
+
+More attributes, methods, and relationships will be defined in the next project phase.
+
+---
+
+# Initial Relational Database Analysis
+
+The initial database tables identified for the system are:
+
+- Users
+- Students
+- Organizers
+- Student_Affairs_Staff
+- Activities
+- Registrations
+- Attendance
+- Notifications
+- Certificates
+- Waiting_List
+
+Each table will contain a primary key.
+
+Foreign keys will connect related tables. For example:
+
+- Student_ID → Registrations
+- Activity_ID → Registrations
+- Activity_ID → Attendance
+- User_ID → Notifications
+- Registration_ID → Certificates
+
+The complete database schema, including attributes, primary keys, foreign keys, and relationships, will be finalized in the next phase.
