@@ -1,0 +1,20 @@
+ID,Name,Start,Finish,Duration,Predecessors
+1,Project Planning and Requirement Analysis,7/20/2026,7/26/2026,5 day,
+2,Select Prototyping Approach,7/27/2026,7/28/2026,2 day,1FS
+3,Develop Low-Fidelity Prototype - Screen 1,7/29/2026,8/4/2026,5 day,2FS
+4,Develop Low-Fidelity Prototype - Screen 2,8/5/2026,8/11/2026,5 day,3FS
+5,Develop Low-Fidelity Prototype - Screen 3,8/12/2026,8/18/2026,5 day,4FS
+6,Develop Context Diagram,7/27/2026,7/30/2026,4 day,1FS
+7,Develop Level-0 DFD,8/2/2026,8/5/2026,4 day,6FS
+8,Develop Level-1 DFD (First Process),8/6/2026,8/12/2026,5 day,7FS
+9,Develop Level-1 DFD (Second Process),8/13/2026,8/19/2026,5 day,8FS
+10,Develop Level-1 DFD (Third Process),8/13/2026,8/19/2026,5 day,8FS
+11,Identify All System Actors,7/27/2026,7/28/2026,2 day,1FS
+12,Create Complete Use Case Diagram,7/29/2026,8/3/2026,4 day,11FS
+13,Document Use Case 1,8/4/2026,8/6/2026,3 day,12FS
+14,Document Use Case 2,8/9/2026,8/11/2026,3 day,13FS
+15,Document Use Case 3,8/12/2026,8/16/2026,3 day,14FS
+16,Develop UML Activity Diagram (Process 1),8/9/2026,8/12/2026,4 day,13FS
+17,Develop UML Activity Diagram (Process 2),8/12/2026,8/17/2026,4 day,14FS
+18,Develop UML Class Diagram,8/20/2026,8/27/2026,6 day,"15FS,10FS"
+19,Design Relational Database (Up to Third Normal Form),8/30/2026,9/7/2026,7 day,18FS
